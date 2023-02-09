@@ -97,9 +97,22 @@ body {
     font-family: 'Lora', serif;
 }
 
+p {
+  font-family: 'Lora', serif;
+}
+
 a {
   color: inherit;
   text-decoration: none;
+}
+
+section {
+  height: 75vh;
+}
+
+ul {
+  list-style-type: none;
+  font-family: 'Montserrat', sans-serif;
 }
 
 /* body {

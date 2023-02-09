@@ -1,0 +1,16 @@
+{
+    "navigation": [
+        {
+            "title": "HOME"
+        },
+        {
+            "title": "ABOUT US"
+        },
+        {
+            "title": "OUR WORK"
+        },
+        {
+            "title": "CONTACT US"
+        }
+    ]
+}
