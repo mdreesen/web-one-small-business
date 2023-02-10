@@ -38,8 +38,9 @@ export default function Home() {
 
   const sectionThree = (
     <section className={styles['sectionThree']}>
-      <h2>THE LATEST REVIEWS</h2>
-      <div className={styles['container']}>
+      <h2>THE LATEST REVIEWS</h2><br/>
+      <h3>See what our clients are saying about us</h3>
+      <div className={styles['containerCard']}>
         <Card />
       </div>
     </section>
