@@ -1,0 +1,27 @@
+.card {
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
+
+  transition: 0.3s;
+  margin: 20px;
+
+  height: max-content;
+  border-radius: 5px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 50px;
+  align-items: center;
+  padding: 20px;
+  max-width: 650px;
+}
+
+.cardName {
+  padding: 2vw 0;
+}
