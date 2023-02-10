@@ -26,15 +26,15 @@ export default function Contact() {
                     <input type="hidden" name="contact_number" />
                     <div>
                         <label>Name</label><br />
-                        <input type="text" name="user_name" />
+                        <input type="text" name="user_name" placeholder='Required' />
                     </div>
                     <div>
                         <label>Email</label><br />
-                        <input type="email" name="user_email" />
+                        <input type="email" name="user_email" placeholder='Required' />
                     </div>
                     <div>
                         <label>Message</label><br />
-                        <textarea name="message" />
+                        <textarea name="message" placeholder='Required' />
                     </div>
                     <input className={styles["submit-btn"]} type="submit" value="Send" />
                 </form>

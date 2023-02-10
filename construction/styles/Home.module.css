@@ -53,6 +53,14 @@
   width: 100%;
 }
 
+.containerContent {
+  height: 50%;
+  flex: flex;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
 .homeImage {
   position: relative;
 }

@@ -47,11 +47,15 @@ export default function Home() {
 
   const sectionFour = (
     <section className={styles['sectionFour']}>
-    <h2>Contact Us</h2>
-    <div className={styles['containerRow']}>
-      <h3>QUESTIONS? WE HAVE ANSWERS.</h3>
-      <Contact/>
-    </div>
+      <h2>Contact Us</h2>
+      <div className={styles['containerRow']}>
+        <div className={styles['containerContent']}>
+          <h3>QUESTIONS? WE HAVE ANSWERS.</h3>
+          <p>Location: Kalispell, MT 59901</p>
+          <p>Phone: (406) 345-6484</p>
+        </div>
+        <Contact />
+      </div>
     </section>
   )
 
