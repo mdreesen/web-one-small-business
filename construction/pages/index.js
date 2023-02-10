@@ -8,6 +8,7 @@ const inter = Inter({ subsets: ['latin'] })
 // Importing Components
 import Hero from "../components/Hero";
 import Card from '../components/ReviewCard';
+import Contact from '../components/Contact';
 
 // Import Data
 import homepageData from '../utils/homeData.json';
@@ -21,21 +22,36 @@ export default function Home() {
       <h2>EXPERIENCE MATTERS.</h2>
       <div className={styles['container']}>
         <div className={styles['homeImage']}>
-          {/* <Image
-            src="/images/home-design.webp"
+          <Image
+            className={styles['secondaryImage']}
+            src="/images/image-outdoor.webp"
             alt="Mission Mountains handy work of bedroom"
             position="relative"
-            fill
-          /> */}
+            width={350}
+            height={350}
+          />
         </div>
-        <span>{homepageData?.description}</span>
+        <span className={styles['text']} dangerouslySetInnerHTML={{ __html: homepageData?.description }}></span>
       </div>
     </section>
   )
 
   const sectionThree = (
     <section className={styles['sectionThree']}>
-      <Card/>
+      <h2>THE LATEST REVIEWS</h2>
+      <div className={styles['container']}>
+        <Card />
+      </div>
+    </section>
+  )
+
+  const sectionFour = (
+    <section className={styles['sectionFour']}>
+    <h2>Contact Us</h2>
+    <div className={styles['containerRow']}>
+      <h3>QUESTIONS? WE HAVE ANSWERS.</h3>
+      <Contact/>
+    </div>
     </section>
   )
 
@@ -51,6 +67,7 @@ export default function Home() {
         {sectionOne}
         {sectionTwo}
         {sectionThree}
+        {sectionFour}
       </main>
     </>
   )

@@ -1,0 +1,21 @@
+.contact-card {
+    background: transparent;
+    color: white;
+    border: none;
+}
+
+.contact-section {
+  height: 100%;
+}
+
+.error-text {
+  color: white;
+}
+
+.submit-btn {
+  background: transparent;
+  border: none;
+  cursor:pointer;
+  font-size: 20px;
+  color: black;
+}

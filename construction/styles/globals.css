@@ -9,20 +9,20 @@
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
 
-  --primary-glow: conic-gradient(
+  /* --primary-glow: conic-gradient(
     from 180deg at 50% 50%,
     #16abff33 0deg,
     #0885ff33 55deg,
     #54d6ff33 120deg,
     #0071ff33 160deg,
     transparent 360deg
-  );
-  --secondary-glow: radial-gradient(
+  ); */
+  /* --secondary-glow: radial-gradient(
     rgba(255, 255, 255, 1),
     rgba(255, 255, 255, 0)
-  );
+  ); */
 
-  --tile-start-rgb: 239, 245, 249;
+  /* --tile-start-rgb: 239, 245, 249;
   --tile-end-rgb: 228, 232, 233;
   --tile-border: conic-gradient(
     #00000080,
@@ -32,16 +32,16 @@
     #00000010,
     #00000010,
     #00000080
-  );
+  ); */
 
-  --callout-rgb: 238, 240, 241;
+  /* --callout-rgb: 238, 240, 241;
   --callout-border-rgb: 172, 175, 176;
   --card-rgb: 180, 185, 188;
-  --card-border-rgb: 131, 134, 135;
+  --card-border-rgb: 131, 134, 135; */
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
+/* @media (prefers-color-scheme: dark) { */
+/* :root {
     --foreground-rgb: 255, 255, 255;
     --background-start-rgb: 0, 0, 0;
     --background-end-rgb: 0, 0, 0;
@@ -52,8 +52,8 @@
       rgba(1, 65, 255, 0),
       rgba(1, 65, 255, 0),
       rgba(1, 65, 255, 0.3)
-    );
-
+    ); */
+/* 
     --tile-start-rgb: 2, 13, 46;
     --tile-end-rgb: 2, 5, 19;
     --tile-border: conic-gradient(
@@ -64,14 +64,14 @@
       #ffffff10,
       #ffffff10,
       #ffffff80
-    );
-
+    ); */
+/* 
     --callout-rgb: 20, 20, 20;
     --callout-border-rgb: 108, 108, 108;
     --card-rgb: 100, 100, 100;
     --card-border-rgb: 200, 200, 200;
   }
-}
+} */
 
 * {
   box-sizing: border-box;
@@ -87,14 +87,11 @@ body {
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
+  background: linear-gradient(to bottom,
       transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+      rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
 
-    font-family: 'Lora', serif;
+  font-family: 'Lora', serif;
 }
 
 p {
@@ -106,8 +103,13 @@ a {
   text-decoration: none;
 }
 
+form {
+  font-family: 'Lora', serif;
+}
+
 section {
-  height: 75vh;
+  height: 100%;
+  padding: 50px 0;
 }
 
 ul {
@@ -118,15 +120,49 @@ ul {
 /* body {
   font-family: 'Lora', serif;
  } */
- 
- h1, h2, h3, h4, h5, h6 {
+
+h1,
+h3,
+h4,
+h5,
+h6 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 300;
   text-transform: uppercase;
- }
+}
 
-@media (prefers-color-scheme: dark) {
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  border-bottom: 1px solid;
+}
+
+input,
+textarea {
+  border: 0;
+  border-radius: 0;
+  border-bottom: 1px solid black;
+  background: transparent;
+  outline: none;
+}
+
+form {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+/* @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
+  }
+} */
+
+@media (max-width: 900px) {
+  section {
+    height: 100%;
+    padding: 50px 0;
   }
 }
