@@ -17,7 +17,7 @@ module.exports = {
 
 /***/ }),
 
-/***/ 269:
+/***/ 261:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -72,7 +72,40 @@ function Navigation() {
     });
 }
 
+;// CONCATENATED MODULE: ./components/MobileNavigation/index.js
+// Import Styling
+
+
+// Import Navigation Data
+
+function MobileNavigation() {
+    const navigationEl = navData === null || navData === void 0 ? void 0 : navData.navigation.map((item, index)=>{
+        /*#__PURE__*/ return _jsx("li", {
+            children: /*#__PURE__*/ _jsx("a", {
+                href: "#",
+                children: item === null || item === void 0 ? void 0 : item.title
+            })
+        }, `card-${index}`);
+    });
+    const burger = /*#__PURE__*/ _jsx("div", {
+        className: styles["burger"],
+        children: /*#__PURE__*/ _jsx("span", {})
+    });
+    return /*#__PURE__*/ _jsxs("div", {
+        children: [
+            burger,
+            /*#__PURE__*/ _jsx("nav", {
+                children: /*#__PURE__*/ _jsx("ul", {
+                    className: styles["navigation"],
+                    children: navigationEl
+                })
+            })
+        ]
+    });
+}
+
 ;// CONCATENATED MODULE: ./components/Layout.js
+
 
 
 function Layout({ children  }) {
@@ -131,7 +164,7 @@ module.exports = require("react/jsx-runtime");
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = (__webpack_exec__(269));
+var __webpack_exports__ = (__webpack_exec__(261));
 module.exports = __webpack_exports__;
 
 })();

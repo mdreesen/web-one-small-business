@@ -37,6 +37,17 @@
   gap: 15px;
 }
 
+.containerCard {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 25px;
+  width: 100%;
+  gap: 15px;
+}
+
 .containerRow {
   position: relative;
   display: flex;
@@ -67,4 +78,6 @@
 
 .text {
   max-width: 280px;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
 }
