@@ -28,7 +28,7 @@
 
 .offcanvas {
   --bs-offcanvas-bg: none !important;
-  --bs-navbar-color: whitesmoke;
+  --bs-navbar-color: black;
   backdrop-filter: blur(20px) saturate(160%) contrast(45%) brightness(200%);
   -webkit-backdrop-filter: blur(20px) saturate(160%) contrast(45%) brightness(200%);
 }
