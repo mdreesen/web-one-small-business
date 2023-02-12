@@ -4,7 +4,7 @@ import styles from '../../styles/Hero.module.css';
 
 export default function Hero(props) {
     return (
-        <Parallax className={styles['heroImage']} bgImage={`/images/${props.heroImage}.webp`}>
+        <Parallax className={styles['heroImage']} bgImage={`/images/${props.heroImage}.webp`} strength={180}>
             <h1 className={styles['content']}>
                 <Image
                     className={styles['secondaryImage']}

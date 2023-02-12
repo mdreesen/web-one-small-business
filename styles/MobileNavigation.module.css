@@ -1,10 +1,8 @@
 .navigation {
-    display: none;
-   }
-
-@media (max-width: 900px) {
+   display: none;
+  }
+@media (max-width: 767px) {
    .navigation {
-    position: fixed;
-    z-index: 9999;
-   }
-}
+      display: block;
+     }
+ }

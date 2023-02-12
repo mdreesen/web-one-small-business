@@ -1,12 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import Image from 'next/image'
 
-// import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
-// import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-// import NavDropdown from 'react-bootstrap/NavDropdown';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 import 'bootstrap/dist/css/bootstrap.css';
 
@@ -26,14 +23,14 @@ export default function MobileNavigation() {
 
     useEffect(() => {
         return window.addEventListener('scroll', background)
-    }, []);
+     }, []);
 
     const navigationEl = navData?.navigation.map((item, index) => <Nav.Link key={`link-${index}`} href="#action1">{item?.title}</Nav.Link>)
 
     return (
         <>
-            {['lg'].map((expand) => (
-                <Navbar key={expand} bg="light" expand={expand} className={navbar ? styles['background-active mb-3'] : styles['background-stable mb-3']}>
+            {['md'].map((expand) => (
+                <Navbar key={expand} bg={navbar ? styles['navbar-active'] : styles['navbar']} expand={expand} className={styles['navigation']}>
                     <Container fluid>
 
                         <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
@@ -56,7 +53,7 @@ export default function MobileNavigation() {
                                 </Offcanvas.Title>
                             </Offcanvas.Header>
                             <Offcanvas.Body>
-                                <Nav className="justify-content-end flex-grow-1 pe-3">
+                                <Nav className="flex-grow-1 pe-3">
                                     {navigationEl}
                                 </Nav>
                             </Offcanvas.Body>
