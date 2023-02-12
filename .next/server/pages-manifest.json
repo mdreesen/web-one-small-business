@@ -3,7 +3,7 @@
   "/_document": "pages/_document.js",
   "/api/hello": "pages/api/hello.js",
   "/api/reviews": "pages/api/reviews.js",
-  "/_error": "pages/_error.js",
   "/": "pages/index.html",
+  "/_error": "pages/_error.js",
   "/404": "pages/404.html"
 }
