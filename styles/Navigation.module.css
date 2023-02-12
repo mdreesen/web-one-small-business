@@ -34,7 +34,7 @@
   transition: all 0.2s ease-out;
 }
 
-/* @media (max-width: 900px) {
+@media (max-width: 900px) {
   .navigation {
     display: none;
   }
@@ -46,4 +46,4 @@
   .background-active {
     display: none;
   }
-} */
+}

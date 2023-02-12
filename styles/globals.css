@@ -2,6 +2,17 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+
+  --bs-light-rgb: none;
+  --bs-navbar-toggler-border-color: none;
+  --bs-navbar-color: white;
+}
+
+.navbar {
+  position: fixed !important;
+  z-index: 9999 !important;
+
+  border: none;
 }
 
 html,
@@ -26,6 +37,8 @@ p {
 a {
   color: inherit;
   text-decoration: none;
+  --bs-link-color: whitesmoke;
+
 }
 
 form {
