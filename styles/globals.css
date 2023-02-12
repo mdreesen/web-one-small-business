@@ -5,7 +5,6 @@
 
   --bs-light-rgb: none;
   --bs-navbar-toggler-border-color: none;
-  --bs-navbar-color: white;
 }
 
 .navbar {
@@ -13,6 +12,17 @@
   z-index: 9999 !important;
 
   border: none;
+}
+
+.navbar-expand-lg {
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.navbar-expand-lg .navbar-nav {
+  flex-direction: row;
+  justify-content: space-around !important;
 }
 
 html,

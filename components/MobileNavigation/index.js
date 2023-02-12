@@ -1,3 +1,6 @@
+import React, { useState, useEffect } from 'react';
+import Image from 'next/image'
+
 // import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
 // import Form from 'react-bootstrap/Form';
@@ -15,12 +18,22 @@ import navData from '../../utils/navigationData.json';
 
 export default function MobileNavigation() {
 
-    const navigationEl = navData?.navigation.map((item, index) => <Nav.Link key={`link-${index}`} href="#action1">{item?.title}</Nav.Link>    )
+    const [navbar, setNavbar] = useState(false);
+
+    const background = () => {
+        return window.scrollY >= 80 ? setNavbar(true) : setNavbar(false)
+    }
+
+    useEffect(() => {
+        return window.addEventListener('scroll', background)
+    }, []);
+
+    const navigationEl = navData?.navigation.map((item, index) => <Nav.Link key={`link-${index}`} href="#action1">{item?.title}</Nav.Link>)
 
     return (
         <>
             {['lg'].map((expand) => (
-                <Navbar key={expand} bg="light" expand={expand} className={styles["mb-3 navigation"]}>
+                <Navbar key={expand} bg="light" expand={expand} className={navbar ? styles['background-active mb-3'] : styles['background-stable mb-3']}>
                     <Container fluid>
 
                         <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
@@ -32,7 +45,14 @@ export default function MobileNavigation() {
                         >
                             <Offcanvas.Header closeButton>
                                 <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`}>
-                                    <h3>Mission Mountain Construction</h3>
+                                    <Image
+                                        className={styles['secondaryImage']}
+                                        src="/images/logo_inhanced_noBackground.webp"
+                                        alt="Mission Mountains handy work of bedroom"
+                                        position="relative"
+                                        width={222}
+                                        height={108}
+                                    />
                                 </Offcanvas.Title>
                             </Offcanvas.Header>
                             <Offcanvas.Body>
