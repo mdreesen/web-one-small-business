@@ -63,6 +63,7 @@ body {
 
 p {
   font-family: 'Lora', serif;
+  text-align: center;
 }
 
 a {
@@ -72,14 +73,13 @@ a {
   --bs-link-hover-color: white;
 }
 
-/* a:hover {
-  color: white;
-  text-decoration: none !important;
-  --bs-link-color: whitesmoke;
-} */
-
 form {
   font-family: 'Lora', serif;
+}
+
+button, .btn-primary {
+  --bs-btn-bg: #023020;
+  --bs-btn-border-color: black;
 }
 
 section {
