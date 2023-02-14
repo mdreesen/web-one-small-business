@@ -7,7 +7,7 @@ export default function Contact() {
 
     return (
         <Form action="https://formsubmit.co/?" method="POST">
-            <Form.Group className="mb-3" controlId="formBasicEmail">
+            <Form.Group className="mb-3" controlId="formBasicName">
                 <Form.Label>Name</Form.Label>
                 <Form.Control type="name" placeholder="Enter name" />
                 <Form.Text className="text-muted">
@@ -25,7 +25,7 @@ export default function Contact() {
                 <Form.Control as="textarea" rows={3} />
             </Form.Group>
 
-            <Button variant="primary" type="submit">
+            <Button variant="dark" type="submit">
                 Submit
             </Button>
         </Form>

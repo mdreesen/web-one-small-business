@@ -9,7 +9,7 @@
 .heroImage > img {
   height: 100vh !important;
   object-fit: cover;
-  filter: brightness(0.6) !important;
+  filter: brightness(0.8) !important;
 }
 
 .content {

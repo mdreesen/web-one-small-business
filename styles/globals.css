@@ -5,6 +5,15 @@
 
   --bs-light-rgb: none;
   --bs-navbar-toggler-border-color: none;
+
+  --bs-btn-bg: black;
+  --bs-btn-border-color: black;
+  --bs-btn-hover-bg: black;
+  --bs-btn-active-bg: black;
+
+
+
+
 }
 
 .navbar {
