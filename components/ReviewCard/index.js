@@ -17,10 +17,10 @@ export default function ReviewCard() {
             <div className={styles['card']} key={`card-${index}`}>
                 <div className={styles['container']}>
                     <div className={styles['container-name']}>
-                        <h3 className={styles['cardName']}><b>{data?.name}</b></h3>
+                        <h3 className={styles['cardName']}>{data?.name}</h3>
                         <div className={styles['starContainer']}>{starLayout}</div>
                     </div>
-                    <p className={styles['cardDescription']}>{data?.description}</p>
+                    <span className={styles['cardDescription']}>{data?.description}</span>
                 </div>
             </div>
         )

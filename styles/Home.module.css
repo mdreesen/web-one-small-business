@@ -4,6 +4,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
+  row-gap: 10px;
 
   background-color: white;
 }
@@ -14,6 +15,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
+  row-gap: 10px;
 
   background: whitesmoke;
 }
@@ -24,6 +26,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
+  row-gap: 10px;
 
   background-color: white;
 }

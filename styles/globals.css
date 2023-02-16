@@ -109,6 +109,7 @@ h6 {
   text-transform: uppercase;
   text-align: center;
   margin-bottom: none;
+  margin-bottom: 0px !important;
 }
 
 h2 {
@@ -116,7 +117,7 @@ h2 {
   font-weight: 300;
   text-transform: uppercase;
   border-bottom: 1px solid;
-  margin-bottom: none;
+  margin-bottom: 0px !important;
 }
 
 h3 {
