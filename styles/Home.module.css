@@ -30,12 +30,9 @@
 
 .container {
   position: relative;
-  /* display: flex; */
-  /* flex-wrap: wrap; */
   justify-content: space-evenly;
   align-items: center;
   padding: 40px;
-  /* width: 100%; */
   gap: 15px;
 }
 
@@ -72,6 +69,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+  text-align: center;
 }
 
 .homeImage {
