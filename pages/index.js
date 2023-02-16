@@ -56,7 +56,7 @@ export default function Home() {
           <h3>QUESTIONS? WE HAVE ANSWERS.</h3>
           <span>Location: Kalispell, MT 59901</span>
           <span>Phone: (406) 345-6484</span>
-          <span>Email: mm.heidt@yahoo.com</span>
+          {/* <span>Email: mm.heidt@yahoo.com</span> */}
         </div>
         <Contact />
       </div>
