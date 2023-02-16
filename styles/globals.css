@@ -108,8 +108,9 @@ h6 {
   font-weight: 300;
   text-transform: uppercase;
   text-align: center;
-  margin-bottom: none;
   margin-bottom: 0px !important;
+  padding: 0px !important;
+  margin: 0px !important;
 }
 
 h2 {
@@ -126,6 +127,8 @@ h3 {
   text-transform: uppercase;
   text-align: center;
   margin-bottom: 0px !important;
+  padding: 0px !important;
+  margin: 0px !important;
 }
 
 input,
