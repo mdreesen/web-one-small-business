@@ -4,7 +4,7 @@ exports.id = 888;
 exports.ids = [888];
 exports.modules = {
 
-/***/ 710:
+/***/ 1710:
 /***/ ((module) => {
 
 // Exports
@@ -19,7 +19,7 @@ module.exports = {
 
 /***/ }),
 
-/***/ 890:
+/***/ 7890:
 /***/ ((module) => {
 
 // Exports
@@ -30,7 +30,7 @@ module.exports = {
 
 /***/ }),
 
-/***/ 885:
+/***/ 7885:
 /***/ ((module) => {
 
 // Exports
@@ -53,10 +53,10 @@ __webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __we
 /* harmony export */ });
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(997);
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _styles_Footer_module_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(710);
+/* harmony import */ var _styles_Footer_module_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(1710);
 /* harmony import */ var _styles_Footer_module_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_styles_Footer_module_css__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(563);
-/* harmony import */ var _fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(197);
+/* harmony import */ var _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(4563);
+/* harmony import */ var _fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(7197);
 /* harmony import */ var _fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_2__);
 var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([_fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_1__]);
 _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_1__ = (__webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__)[0];
@@ -83,7 +83,7 @@ __webpack_async_result__();
 
 /***/ }),
 
-/***/ 412:
+/***/ 3412:
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -93,8 +93,8 @@ __webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __we
 /* harmony export */ });
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(997);
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _Navigation__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(571);
-/* harmony import */ var _MobileNavigation__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(290);
+/* harmony import */ var _Navigation__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(9571);
+/* harmony import */ var _MobileNavigation__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(9290);
 /* harmony import */ var _Footer__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(3);
 var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([_Footer__WEBPACK_IMPORTED_MODULE_3__]);
 _Footer__WEBPACK_IMPORTED_MODULE_3__ = (__webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__)[0];
@@ -120,7 +120,7 @@ __webpack_async_result__();
 
 /***/ }),
 
-/***/ 290:
+/***/ 9290:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -133,9 +133,9 @@ __webpack_require__.d(__webpack_exports__, {
 // EXTERNAL MODULE: external "react/jsx-runtime"
 var jsx_runtime_ = __webpack_require__(997);
 // EXTERNAL MODULE: external "react"
-var external_react_ = __webpack_require__(689);
+var external_react_ = __webpack_require__(6689);
 // EXTERNAL MODULE: ./node_modules/next/image.js
-var next_image = __webpack_require__(675);
+var next_image = __webpack_require__(5675);
 var image_default = /*#__PURE__*/__webpack_require__.n(next_image);
 ;// CONCATENATED MODULE: external "react-bootstrap/Container"
 const Container_namespaceObject = require("react-bootstrap/Container");
@@ -150,9 +150,9 @@ var Navbar_default = /*#__PURE__*/__webpack_require__.n(Navbar_namespaceObject);
 const Offcanvas_namespaceObject = require("react-bootstrap/Offcanvas");
 var Offcanvas_default = /*#__PURE__*/__webpack_require__.n(Offcanvas_namespaceObject);
 // EXTERNAL MODULE: ./node_modules/bootstrap/dist/css/bootstrap.css
-var bootstrap = __webpack_require__(931);
+var bootstrap = __webpack_require__(5931);
 // EXTERNAL MODULE: ./styles/MobileNavigation.module.css
-var MobileNavigation_module = __webpack_require__(890);
+var MobileNavigation_module = __webpack_require__(7890);
 var MobileNavigation_module_default = /*#__PURE__*/__webpack_require__.n(MobileNavigation_module);
 // EXTERNAL MODULE: ./utils/navigationData.json
 var navigationData = __webpack_require__(334);
@@ -231,7 +231,7 @@ function MobileNavigation() {
 
 /***/ }),
 
-/***/ 571:
+/***/ 9571:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -240,9 +240,9 @@ function MobileNavigation() {
 /* harmony export */ });
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(997);
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(689);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(6689);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _styles_Navigation_module_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(885);
+/* harmony import */ var _styles_Navigation_module_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(7885);
 /* harmony import */ var _styles_Navigation_module_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_styles_Navigation_module_css__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var _utils_navigationData_json__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(334);
 
@@ -279,7 +279,7 @@ function Navigation() {
 
 /***/ }),
 
-/***/ 484:
+/***/ 8484:
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -290,9 +290,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(997);
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _styles_globals_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(764);
+/* harmony import */ var _styles_globals_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(6764);
 /* harmony import */ var _styles_globals_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_styles_globals_css__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(412);
+/* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(3412);
 var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([_components_Layout__WEBPACK_IMPORTED_MODULE_2__]);
 _components_Layout__WEBPACK_IMPORTED_MODULE_2__ = (__webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__)[0];
 
@@ -311,21 +311,21 @@ __webpack_async_result__();
 
 /***/ }),
 
-/***/ 931:
+/***/ 5931:
 /***/ (() => {
 
 
 
 /***/ }),
 
-/***/ 764:
+/***/ 6764:
 /***/ (() => {
 
 
 
 /***/ }),
 
-/***/ 197:
+/***/ 7197:
 /***/ ((module) => {
 
 "use strict";
@@ -333,7 +333,7 @@ module.exports = require("@fortawesome/react-fontawesome");
 
 /***/ }),
 
-/***/ 918:
+/***/ 3918:
 /***/ ((module) => {
 
 "use strict";
@@ -341,7 +341,7 @@ module.exports = require("next/dist/shared/lib/amp-context.js");
 
 /***/ }),
 
-/***/ 732:
+/***/ 5732:
 /***/ ((module) => {
 
 "use strict";
@@ -349,7 +349,7 @@ module.exports = require("next/dist/shared/lib/amp-mode.js");
 
 /***/ }),
 
-/***/ 796:
+/***/ 2796:
 /***/ ((module) => {
 
 "use strict";
@@ -357,7 +357,7 @@ module.exports = require("next/dist/shared/lib/head-manager-context.js");
 
 /***/ }),
 
-/***/ 486:
+/***/ 4486:
 /***/ ((module) => {
 
 "use strict";
@@ -373,7 +373,7 @@ module.exports = require("next/dist/shared/lib/image-config-context.js");
 
 /***/ }),
 
-/***/ 843:
+/***/ 5843:
 /***/ ((module) => {
 
 "use strict";
@@ -381,7 +381,7 @@ module.exports = require("next/dist/shared/lib/image-config.js");
 
 /***/ }),
 
-/***/ 552:
+/***/ 9552:
 /***/ ((module) => {
 
 "use strict";
@@ -389,7 +389,7 @@ module.exports = require("next/dist/shared/lib/image-loader");
 
 /***/ }),
 
-/***/ 470:
+/***/ 2470:
 /***/ ((module) => {
 
 "use strict";
@@ -405,7 +405,7 @@ module.exports = require("next/dist/shared/lib/utils/warn-once.js");
 
 /***/ }),
 
-/***/ 689:
+/***/ 6689:
 /***/ ((module) => {
 
 "use strict";
@@ -421,7 +421,7 @@ module.exports = require("react/jsx-runtime");
 
 /***/ }),
 
-/***/ 563:
+/***/ 4563:
 /***/ ((module) => {
 
 "use strict";
@@ -444,7 +444,7 @@ module.exports = JSON.parse('{"navigation":[{"title":"HOME"},{"title":"ABOUT US"
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [121,675], () => (__webpack_exec__(484)));
+var __webpack_exports__ = __webpack_require__.X(0, [121,675], () => (__webpack_exec__(8484)));
 module.exports = __webpack_exports__;
 
 })();

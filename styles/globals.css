@@ -72,7 +72,8 @@ body {
 
 p {
   font-family: 'Lora', serif;
-  text-align: center;
+  margin-bottom: 0px !important;
+  /* text-align: center; */
 }
 
 a {
@@ -109,6 +110,7 @@ h6 {
   font-weight: 300;
   text-transform: uppercase;
   text-align: center;
+  margin-bottom: none;
 }
 
 h2 {
@@ -116,6 +118,7 @@ h2 {
   font-weight: 300;
   text-transform: uppercase;
   border-bottom: 1px solid;
+  margin-bottom: none;
 }
 
 h3 {
@@ -123,6 +126,7 @@ h3 {
   font-weight: 300;
   text-transform: uppercase;
   text-align: center;
+  margin-bottom: 0px !important;
 }
 
 input,

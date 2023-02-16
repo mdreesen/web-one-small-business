@@ -1,7 +1,9 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import { Inter } from '@next/font/google'
-import styles from '@/styles/Home.module.css'
+import styles from '@/styles/Home.module.css';
+
+import { motion, useScroll } from "framer-motion";
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -15,26 +17,26 @@ import homepageData from '../utils/homeData.json';
 
 export default function Home() {
 
-  const sectionOne = <Hero heroImage={'image_home'} />
+  const sectionOne = <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }}><Hero heroImage={'image_home'} /></motion.div>
 
   const sectionTwo = (
     <section className={styles['sectionTwo']}>
-      <h2>EXPERIENCE MATTERS.</h2>
+      <h2>WHO WE ARE</h2>
       <div className={styles['container']}>
         <div className={styles['homeImage']}>
-          <Image
+          {/* <Image
             className={styles['secondaryImage']}
             src="/images/image-outdoor.webp"
             alt="Mission Mountains handy work of bedroom"
             position="relative"
             width={350}
             height={350}
-          />
+          /> */}
         </div>
         <span className={styles['text']} dangerouslySetInnerHTML={{ __html: homepageData?.description }}></span>
       </div>
     </section>
-  )
+  );
 
   const sectionThree = (
     <section className={styles['sectionThree']}>
