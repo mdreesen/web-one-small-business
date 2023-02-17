@@ -24,7 +24,9 @@ module.exports = {
 
 // Exports
 module.exports = {
-	"navigation": "MobileNavigation_navigation__rpaxB"
+	"navigation": "MobileNavigation_navigation__rpaxB",
+	"m-n-container": "MobileNavigation_m-n-container__hZlkM",
+	"m-n-border": "MobileNavigation_m-n-border__zjErN"
 };
 
 
@@ -193,7 +195,18 @@ function MobileNavigation() {
                     fluid: true,
                     children: [
                         /*#__PURE__*/ jsx_runtime_.jsx((Navbar_default()).Toggle, {
-                            "aria-controls": `offcanvasNavbar-expand-${expand}`
+                            "aria-controls": `offcanvasNavbar-expand-${expand}`,
+                            children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                                className: (MobileNavigation_module_default())["m-n-container"],
+                                children: [
+                                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                                        className: (MobileNavigation_module_default())["m-n-border"]
+                                    }),
+                                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                                        className: (MobileNavigation_module_default())["m-n-border"]
+                                    })
+                                ]
+                            })
                         }),
                         /*#__PURE__*/ (0,jsx_runtime_.jsxs)((Navbar_default()).Offcanvas, {
                             id: `offcanvasNavbar-expand-${expand}`,

@@ -160,23 +160,6 @@ form {
   justify-content: space-evenly;
 }
 
-/* #formBasicName,
-#formBasicEmail,
-#ControlTextarea1 {
-  background: transparent;
-  border: none;
-  border-bottom-style: solid;
-  color: whitesmoke;
-  border-radius: 0px;
-} */
-
-@media (max-width: 900px) {
-  section {
-    height: 100%;
-    padding: 75px 34px;
-  }
-}
-
 @media (prefers-color-scheme: dark) {
   section {
     height: 100%;
@@ -202,6 +185,13 @@ form {
     --bs-btn-hover-bg: #023020 !important;
     --bs-btn-active-bg: #023020 !important;
   }
+
+  @media (max-width: 900px) {
+  section {
+    height: 100%;
+    padding: 75px 34px;
+  }
+}
 }
 
 @media (prefers-color-scheme: light) {
@@ -216,4 +206,11 @@ form {
     --bs-btn-hover-bg: #023020 !important;
     --bs-btn-active-bg: #023020 !important;
   }
+
+  @media (max-width: 900px) {
+  section {
+    height: 100%;
+    padding: 75px 34px;
+  }
+}
 }

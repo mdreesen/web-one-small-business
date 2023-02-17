@@ -23,7 +23,7 @@ export default function MobileNavigation() {
 
     useEffect(() => {
         return window.addEventListener('scroll', background)
-     }, []);
+    }, []);
 
     const navigationEl = navData?.navigation.map((item, index) => <Nav.Link key={`link-${index}`} href="#action1">{item?.title}</Nav.Link>)
 
@@ -33,7 +33,12 @@ export default function MobileNavigation() {
                 <Navbar key={expand} bg={navbar ? styles['navbar-active'] : styles['navbar']} expand={expand} className={styles['navigation']}>
                     <Container fluid>
 
-                        <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
+                        <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`}>
+                            <div className={styles['m-n-container']}>
+                                <div className={styles['m-n-border']}></div>
+                                <div className={styles['m-n-border']}></div>
+                            </div>
+                        </Navbar.Toggle>
 
                         <Navbar.Offcanvas
                             id={`offcanvasNavbar-expand-${expand}`}
