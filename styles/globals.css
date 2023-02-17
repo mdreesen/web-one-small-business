@@ -173,14 +173,14 @@ form {
 @media (max-width: 900px) {
   section {
     height: 100%;
-    padding: 50px 34px;
+    padding: 75px 34px;
   }
 }
 
 @media (prefers-color-scheme: dark) {
   section {
     height: 100%;
-    padding: 50px 0;
+    padding: 75px 0;
 
     background: linear-gradient(90deg, rgba(3, 11, 6, .977) 2%, #0f0e0e 49%);
     color: whitesmoke;
@@ -207,7 +207,7 @@ form {
 @media (prefers-color-scheme: light) {
   section {
     height: 100%;
-    padding: 50px 0;
+    padding: 75px 0;
   }
 
   .btn-dark {
