@@ -24,4 +24,5 @@
   border: 1.5px solid whitesmoke;
   width: 85vw;
   height: 55vh;
+  backdrop-filter: blur(5px);
 }
