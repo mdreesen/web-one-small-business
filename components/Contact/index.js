@@ -20,7 +20,7 @@ export default function Contact() {
                 <Form.Control type="email" placeholder="Enter email" />
             </Form.Group>
 
-            <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
+            <Form.Group className="mb-3" controlId="ControlTextarea1">
                 <Form.Label>Message</Form.Label>
                 <Form.Control as="textarea" rows={3} />
             </Form.Group>

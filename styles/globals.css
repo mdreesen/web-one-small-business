@@ -6,10 +6,10 @@
   --bs-light-rgb: none;
   --bs-navbar-toggler-border-color: none;
 
-  --bs-btn-bg: black;
-  --bs-btn-border-color: black;
-  --bs-btn-hover-bg: black;
-  --bs-btn-active-bg: black;
+  --bs-btn-bg: #023020;
+  --bs-btn-border-color: #023020;
+  --bs-btn-hover-bg: #023020;
+  --bs-btn-active-bg: #023020;
 }
 
 .navbar {
@@ -85,15 +85,27 @@ form {
   font-family: 'Lora', serif;
 }
 
-button, .btn-primary {
+/* button,
+.btn-primary {
   --bs-btn-bg: #023020;
   --bs-btn-border-color: black;
+} */
+
+/* .btn-dark {
+  --bs-btn-bg: #023020 !important;
+  --bs-btn-border-color: #023020 !important;
+  --bs-btn-hover-bg: #023020 !important;
+  --bs-btn-active-bg: #023020 !important;
+} */
+
+.btn {
+  background: #023020;
 }
 
-section {
+/* section {
   height: 100%;
   padding: 50px 0;
-}
+} */
 
 ul {
   list-style-type: none;
@@ -148,9 +160,60 @@ form {
   justify-content: space-evenly;
 }
 
+/* #formBasicName,
+#formBasicEmail,
+#ControlTextarea1 {
+  background: transparent;
+  border: none;
+  border-bottom-style: solid;
+  color: whitesmoke;
+  border-radius: 0px;
+} */
+
 @media (max-width: 900px) {
   section {
     height: 100%;
     padding: 50px 34px;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  section {
+    height: 100%;
+    padding: 50px 0;
+
+    background: linear-gradient(90deg, rgba(3, 11, 6, .977) 2%, #0f0e0e 49%);
+    color: whitesmoke;
+  }
+
+  #formBasicName,
+  #formBasicEmail,
+  #ControlTextarea1 {
+    background: transparent;
+    border: none;
+    border-bottom-style: solid;
+    color: whitesmoke;
+    border-radius: 0px;
+  }
+
+  .btn-dark {
+    --bs-btn-bg: #023020 !important;
+    --bs-btn-border-color: #023020 !important;
+    --bs-btn-hover-bg: #023020 !important;
+    --bs-btn-active-bg: #023020 !important;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  section {
+    height: 100%;
+    padding: 50px 0;
+  }
+
+  .btn-dark {
+    --bs-btn-bg: #023020 !important;
+    --bs-btn-border-color: #023020 !important;
+    --bs-btn-hover-bg: #023020 !important;
+    --bs-btn-active-bg: #023020 !important;
   }
 }
