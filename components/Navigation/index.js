@@ -15,7 +15,7 @@ export default function Navigation() {
     }
 
     useEffect(() => {
-       return window.addEventListener('scroll', background)
+        return window.addEventListener('scroll', background)
     }, []);
 
     const navigationEl = navData?.navigation.map((item, index) => <li key={`card-${index}`}><a href="#">{item?.title}</a></li>)
